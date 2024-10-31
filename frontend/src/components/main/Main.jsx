@@ -41,6 +41,7 @@ const Main = () => {
       setSearch("");
     }
   };
+
   const handleCat = (e) => {
     setLoading(true);
     setCategory(`category=${e.target.value}`);
